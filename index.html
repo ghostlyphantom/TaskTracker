@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Daily Task Tracker</title>
+
+<link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+<main class="card">
+
+<h1>Daily Task Tracker</h1>
+
+<p class="subtitle">Add tasks, mark them done, and keep them saved.</p>
+
+<div class="row">
+
+<input id="taskInput" type="text" placeholder="Type a task (e.g., Finish lab exercise)" />
+
+<button id="addBtn">Add</button>
+
+</div>
+
+<div class="row small">
+
+<button id="clearDoneBtn" class="ghost">Clear Done</button>
+
+<button id="clearAllBtn" class="danger">Clear All</button>
+
+</div>
+
+<section class="stats">
+
+<span id="totalCount">Total: 0</span>
+
+<span id="doneCount">Done: 0</span>
+
+</section>
+
+<ul id="taskList" class="list"></ul>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
